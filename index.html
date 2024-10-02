@@ -3,11 +3,84 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bootstrap Card Example</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Sharp-J-sh04.html">Sharp J-sh04</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="motorola-dynatac.html">Motorola Dynatac</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="first-mobile-phone.html">First Mobile Phone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apple-iphone.html">Apple iPhone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nokia-1011.html">Nokia 1011</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/dZohqkEgNfg/maxresdefault.jpg" class="card-img-top" alt="Sharp J-sh04">
+            <div class="card-body">
+              <h5 class="card-title">Sharp J-sh04</h5>
+              <p class="card-text">This was one of the first phones with a built-in camera, launched in Japan in 2000.</p>
+              <a href="Sharp-J-sh04.html" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://th.bing.com/th/id/OIP.nCxiShe7FI19iesZ51AqOgHaFj?rs=1&pid=ImgDetMain" class="card-img-top" alt="Motorola Dynatac">
+            <div class="card-body">
+              <h5 class="card-title">Nokia 1011</h5>
+              <p class="card-text">The first commercially available mobile phone, released in 1983, which revolutionized communication.</p>
+              <a href="nokia-1011.html" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.macrumors.com/t/8ieVxMiaaSTj5PEvbzXC0aX3Wms=/1600x/article-new/2015/06/Original-iPhone-Twitter.jpg" class="card-img-top" alt="First Mobile Phone">
+            <div class="card-body">
+              <h5 class="card-title">Apple Iphone</h5>
+              <p class="card-text">IPhone, series of smartphones produced by Apple Inc., combining mobile telephone, digital camera, music player, and personal computing technologies.</p>
+              <a href="apple-iphone.html" class="btn btn-primary">Learn more</a>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.macrumors.com/t/8ieVxMiaaSTj5PEvbzXC0aX3Wms=/1600x/article-new/2015/06/Original-iPhone-Twitter.jpg" class="card-img-top" alt="First Mobile Phone">
+                <div class="card-body">
+                  <h5 class="card-title">Apple Iphone</h5>
+                  <p class="card-text">IPhone, series of smartphones produced by Apple Inc., combining mobile telephone, digital camera, music player, and personal computing technologies.</p>
+                  <a href="Sharp-J-sh04.html" class="btn btn-primary">Learn more</a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
